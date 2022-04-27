@@ -20,5 +20,6 @@ public class TestConnection {
         Connection connection = dataSource.getConnection();
         System.out.println(connection);
         System.out.println("1111");
+        System.out.println("1111");
     }
 }
