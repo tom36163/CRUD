@@ -19,7 +19,5 @@ public class TestConnection {
     public void test() throws SQLException {
         Connection connection = dataSource.getConnection();
         System.out.println(connection);
-        System.out.println("1111");
-        System.out.println("1111");
     }
 }
